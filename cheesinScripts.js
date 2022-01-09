@@ -5,7 +5,7 @@ var checkboxValues = [ ];
 
 var time = 100;
 for (i = 0; i< data.length; i++) {
-    document.getElementById('wrapper').innerHTML += "<img src=./smiles/" + data[i].title + ".png><\img>";
+    document.getElementById('wrapper').innerHTML += "<img class='smile' src=./smiles/" + data[i].title + ".png><\img>";
 }
 
 window.onload = (function () {
@@ -39,7 +39,7 @@ function filterCards() {
         let result = (arr, target) => target.every((v) => arr.includes(v));
         let isMatch = result(classes, checkboxValues);
         if (isMatch) {
-          document.getElementById('wrapper').innerHTML += "<img src=./smiles/" + item.title + ".png><\img>";
+          document.getElementById('wrapper').innerHTML += "<img class='smile' src=./smiles/" + item.title + ".png><\img>";
         }
       });
 
