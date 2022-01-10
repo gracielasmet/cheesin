@@ -4,7 +4,7 @@ const data = [
   {title:"Mel",           classes:["prob","roof", "frenemy", "newfriend"]},
   {title:"GrantPong",     classes:["prob","roof", "music"]},
   {title:"CheyAmsterdam", classes:["overseas", "sunny"]},
-  {title:"TheoDAD",   classes:["hug"]},
+  {title:"TheoDad",   classes:["hug"]},
   {title:"EmerBackyard",   classes:[]},
   {title:"FrankieIsland",   classes:["frankie"]},
   {title:"FrankieSquiz",   classes:["frankie", "hug"]},
